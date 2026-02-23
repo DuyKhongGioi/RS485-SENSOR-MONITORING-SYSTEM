@@ -1,0 +1,24 @@
+
+Debug/
+Release/
+bin/
+obj/
+
+*.list
+*.map
+*.o
+*.su
+*.d
+
+
+*.elf
+*.hex
+*.bin
+
+
+.settings/
+.analytics
+.log
+
+# Các file lưu trạng thái giao diện người dùng
+*.launch

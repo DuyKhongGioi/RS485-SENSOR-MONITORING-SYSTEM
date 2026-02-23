@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.csdldks.SignInFragment">
+        <action
+            android:id="@+id/action_signIn_to_signUp"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signIn_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/signInFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.csdldks.SignUpFragment">
+        <action
+            android:id="@+id/action_signUp_to_signIn"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_signUp_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/signUpFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.csdldks.HomeFragment">
+        <action
+            android:id="@+id/action_home_to_log"
+            app:destination="@id/logFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/logFragment"
+        android:name="com.example.csdldks.LogFragment">
+        <action
+            android:id="@+id/action_log_to_home"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

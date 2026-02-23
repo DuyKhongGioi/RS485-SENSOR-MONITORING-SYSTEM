@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "929421018118",
+    "firebase_url": "https://temperaturehumidity-4f9f0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "temperaturehumidity-4f9f0",
+    "storage_bucket": "temperaturehumidity-4f9f0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929421018118:android:d344fc2661bfd1e0876f87",
+        "android_client_info": {
+          "package_name": "com.example.csdldks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWDemnc8vZlE9NNnMbVv_SzYsCchDPT-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
