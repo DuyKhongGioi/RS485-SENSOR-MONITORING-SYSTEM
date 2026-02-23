@@ -20,53 +20,49 @@ Trong các môi trường công nghiệp như kho lạnh, nhà kính hay phòng 
 
 ### 1. Phần cứng
 
-* 
-**Vi điều khiển chính:** STM32 (Xử lý trung tâm tại trạm đo).
+* **Vi điều khiển chính:** STM32 (Xử lý trung tâm tại trạm đo).
 
 
-* 
-**Vi điều khiển truyền tin:** ESP32 (Hỗ trợ kết nối WiFi/Cloud).
+* **Vi điều khiển truyền tin:** ESP32 (Hỗ trợ kết nối WiFi/Cloud).
 
 
-* 
-**Cảm biến:** DHT11 và DHT22 (Đo nhiệt độ và độ ẩm).
+* **Cảm biến:** DHT11 và DHT22 (Đo nhiệt độ và độ ẩm).
 
 
-* 
-**Giao tiếp:** Module chuyển đổi UART sang RS485 (Truyền xa, chống nhiễu).
+* **Giao tiếp:** Module chuyển đổi UART sang RS485 (Truyền xa, chống nhiễu).
 
 
 
 ### 2. Phần mềm & Giao thức
 
-* 
-**LabVIEW:** Giao diện giám sát trên PC (GUI), hiển thị dữ liệu đo, biểu đồ và cảnh báo theo thời gian thực.
+* **LabVIEW:** Giao diện giám sát trên PC (GUI), hiển thị dữ liệu đo, biểu đồ và cảnh báo theo thời gian thực.
 
 
-* 
-**Firebase:** Cơ sở dữ liệu đám mây để lưu trữ và đồng bộ dữ liệu.
+* **Firebase:** Cơ sở dữ liệu đám mây để lưu trữ và đồng bộ dữ liệu.
 
 
-* 
-**Chuẩn truyền thông:** RS485 và UART.
+* **Chuẩn truyền thông:** RS485 và UART.
 
 ## Thành viên thực hiện (Nhóm 7)
 
-* 
-**Phạm Văn Duy** (22022118) 
+* **Phạm Văn Duy** (22022118) 
 
 
-* 
-**Ngô Đức Hiếu** (22022103) 
+* **Ngô Đức Hiếu** (22022103) 
 
 
-* 
-**Nguyễn Quốc Toản** (22022175) 
+* **Nguyễn Quốc Toản** (22022175) 
 
 
-* 
-**Tạ Đình Kiên** (22022145) 
+* **Tạ Đình Kiên** (22022145) 
 
 
 
 **Giảng viên hướng dẫn:** TS. Phạm Duy Hưng **Mentor:** Kiều Tất Thắng 
+
+**Video demo dự án:** 
+
+https://www.youtube.com/watch?v=Pk-YyZFxrGo
+
+https://www.youtube.com/watch?v=g_tf0VzvtYg
+
